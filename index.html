@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Previsão do tempo</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- GSAP Animation -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
+    <samp class="background"></samp>
+
+    <div class="card">
+      <form>
+        <div>
+          <i class="ph ph-map-pin"></i>
+          <input
+            type="text"
+            name="local"
+            placeholder="Digite o nome da localização"
+          />
+        </div>
+
+        <button type="submit">
+          <i class="ph ph-magnifying-glass"></i>
+        </button>
+      </form>
+      <main>
+        <img id="icon-weather" src="./assets/icons/snow.png" alt="" />
+        <h1 id="temperature">-2°C</h1>
+        <h2 id="local">Chapecó</h2>
+      </main>
+
+      <footer>
+        <div class="block">
+          <i class="ph ph-drop-half-bottom"></i>
+
+          <div>
+            <strong id="humidity">78%</strong>
+            <p>Umidade</p>
+          </div>
+        </div>
+
+        <div class="block">
+          <i class="ph ph-wind"></i>
+
+          <div>
+            <strong id="speed-wind">8 km/h</strong>
+            <p>Vel. do vento</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
