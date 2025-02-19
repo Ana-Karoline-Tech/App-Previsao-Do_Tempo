@@ -15,7 +15,8 @@ Velocidade do vento
 
 Busca por cidade
 
-Tecnologias
+
+Tecnologias:
 
 HTML
 
@@ -25,15 +26,18 @@ JavaScript
 
 API OpenWeather
 
-Status
+
+Status:
 
 🚧 Em desenvolvimento 🚧
 
-Acesso
+
+Acesso:
 
 Acesse a aplicação através do link: https://ana-karoline-tech.github.io/App-Previsao-Do_Tempo/
 
-Licença
+
+Licença:
 
 MIT
 
