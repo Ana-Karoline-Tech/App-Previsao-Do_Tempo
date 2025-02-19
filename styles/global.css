@@ -39,7 +39,9 @@ body {
 
 .card {
   width: 500px;
-  height: auto;
+  height: 110px;
+
+  overflow: hidden;
 
   margin: auto;
   padding: 32px 32px 40px;
@@ -54,6 +56,12 @@ body {
   z-index: 1;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
+
+  transition: all 0.3s;
+}
+
+.card.active {
+  height: 533px;
 }
 
 #humidity,
